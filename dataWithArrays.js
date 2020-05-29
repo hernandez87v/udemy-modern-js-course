@@ -58,3 +58,25 @@ console.log(
 
 console.log(megaList.splice(2, 0, 'fish'));
 console.log(megaList);
+// []
+// [
+//   ('plates',
+//   'knife',
+//   'fish',
+//   'spork',
+//   'bagels',
+//   'hot sauce',
+//   'cereal',
+//   'ketchup',
+//   'milk',
+//   'hamburger buns',
+//   'burgers',
+//   'eggs',
+//   'cheese')
+// ];
+
+const myEggs = ['brown', 'brown']; //Anything inside array can be changed but a new reference to array cannot
+myEggs.push('cyan');
+myEggs[0] = 'blue';
+
+console.log('CONST can be changed as shown in example:', myEggs);
